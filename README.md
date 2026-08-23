@@ -35,12 +35,19 @@ Setup iniziale sul server, una volta sola:
 
 ```bash
 sudo pacman -Syu nodejs npm git base-devel python
-git clone https://github.com/ndPPPhz/FantaMammt.git /opt/fantamammt/app
+
+# /opt è di root: crea l'utente dedicato e assegnagli la sua directory
+# PRIMA di clonarci dentro, altrimenti git/npm falliscono per permessi.
+sudo useradd -r -m -d /opt/fantamammt -s /usr/bin/nologin fantamammt
+sudo mkdir -p /opt/fantamammt/app
+sudo chown fantamammt:fantamammt /opt/fantamammt/app
+
+sudo -u fantamammt git clone https://github.com/ndPPPhz/FantaMammt.git /opt/fantamammt/app
 cd /opt/fantamammt/app
-npm install --omit=dev
-cp .env.example .env
-nano .env               # SESSION_SECRET e ADMIN_PASSWORD veri, non quelli di test
-npm run seed
+sudo -u fantamammt npm install --omit=dev
+sudo -u fantamammt cp .env.example .env
+sudo -u fantamammt nano .env   # SESSION_SECRET e ADMIN_PASSWORD veri, non quelli di test
+sudo -u fantamammt npm run seed
 
 sudo cp deploy/fantamammt.service /etc/systemd/system/
 sudo systemctl daemon-reload
@@ -51,7 +58,9 @@ Il unit file assume un utente dedicato `fantamammt` e il checkout in
 `/opt/fantamammt/app`: se il tuo setup è diverso, modifica `User` e
 `WorkingDirectory` in `deploy/fantamammt.service` prima di copiarlo.
 
-Per i successivi aggiornamenti (dopo `git pull` di nuove modifiche), basta:
+Per i successivi aggiornamenti (dopo modifiche pushate su `main`), lancia
+lo script **da un tuo utente normale con sudo** (non da `fantamammt`, che
+non ha una shell utilizzabile né privilegi sudo):
 
 ```bash
 ./deploy/deploy.sh
