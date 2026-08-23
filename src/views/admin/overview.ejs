@@ -1,0 +1,29 @@
+<%- include('../partials/header') %>
+
+<h1 class="h3 mb-1">Panoramica voti</h1>
+<p class="text-muted">Righe = squadra che vota, colonne = squadra votata. Numero di giocatori selezionati per coppia.</p>
+
+<div class="table-responsive">
+  <table class="table table-sm table-bordered bg-white text-center">
+    <thead>
+      <tr>
+        <th class="text-start">Vota &darr; / Votata &rarr;</th>
+        <% teams.forEach(t => { %><th><%= t.name %></th><% }) %>
+      </tr>
+    </thead>
+    <tbody>
+      <% matrix.forEach(row => { %>
+        <tr>
+          <th class="text-start"><%= row.voter.name %></th>
+          <% row.cells.forEach(cell => { %>
+            <td class="<%= cell === null ? 'table-secondary' : cell === 5 ? 'table-success' : cell > 0 ? 'table-warning' : '' %>">
+              <%= cell === null ? '—' : cell %>
+            </td>
+          <% }) %>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</div>
+
+<%- include('../partials/footer') %>

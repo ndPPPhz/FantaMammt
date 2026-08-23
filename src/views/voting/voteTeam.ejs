@@ -1,0 +1,73 @@
+<%- include('../partials/header') %>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+  <h1 class="h3 mb-0">Vota: <%= targetTeam.name %></h1>
+  <a href="/voting" class="btn btn-outline-secondary btn-sm">&larr; Torna all'elenco</a>
+</div>
+
+<% if (phase !== 'voting_open') { %>
+  <div class="alert alert-secondary">La fase di voto è chiusa: questa selezione è di sola lettura.</div>
+<% } %>
+
+<form action="/voting/<%= targetTeam.id %>" method="post">
+  <div class="alert alert-light border d-flex justify-content-between align-items-center sticky-top selection-bar">
+    <span>Selezionati: <strong id="selectedCount"><%= selectedIds.size %></strong>/5 &middot; max 1 portiere, 2 per ogni altro ruolo</span>
+    <% if (phase === 'voting_open') { %>
+      <button class="btn btn-primary" type="submit">Salva voti</button>
+    <% } %>
+  </div>
+
+  <% ['P','D','C','A'].forEach(role => { %>
+    <% const rolePlayers = players.filter(p => p.ruolo === role); %>
+    <% if (rolePlayers.length) { %>
+      <div class="card mb-3">
+        <div class="card-header fw-semibold">
+          <%= { P: 'Portieri', D: 'Difensori', C: 'Centrocampisti', A: 'Attaccanti' }[role] %>
+        </div>
+        <div class="list-group list-group-flush">
+          <% rolePlayers.forEach(player => { %>
+            <%- include('../partials/playerCheckboxRow', {
+              player,
+              checked: selectedIds.has(player.id),
+              showCost: false,
+              disabled: phase !== 'voting_open',
+            }) %>
+          <% }) %>
+        </div>
+      </div>
+    <% } %>
+  <% }) %>
+</form>
+
+<script>
+  (function () {
+    const form = document.querySelector('form');
+    if (!form) return;
+    const counter = document.getElementById('selectedCount');
+    const maxPerRole = { P: 1, D: 2, C: 2, A: 2 };
+
+    function refresh() {
+      const checked = [...form.querySelectorAll('input[type=checkbox]:checked')];
+      counter.textContent = checked.length;
+      const countByRole = { P: 0, D: 0, C: 0, A: 0 };
+      checked.forEach((c) => countByRole[c.dataset.role]++);
+
+      form.querySelectorAll('input[type=checkbox]').forEach((c) => {
+        if (c.checked) return;
+        const roleFull = countByRole[c.dataset.role] >= maxPerRole[c.dataset.role];
+        const totalFull = checked.length >= 5;
+        c.disabled = roleFull || totalFull;
+        c.closest('.player-row').classList.toggle('player-row-disabled', c.disabled);
+      });
+    }
+
+    form.addEventListener('change', (e) => {
+      if (e.target.checked) e.target.closest('.player-row').classList.add('player-row-checked');
+      else e.target.closest('.player-row').classList.remove('player-row-checked');
+      refresh();
+    });
+    refresh();
+  })();
+</script>
+
+<%- include('../partials/footer') %>

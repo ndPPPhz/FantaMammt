@@ -1,0 +1,41 @@
+<%
+const phaseLabels = {
+  voting_open: { text: 'Voto aperto', cls: 'text-bg-primary' },
+  voting_closed: { text: 'Voto chiuso', cls: 'text-bg-secondary' },
+  confirm_open: { text: 'Riconferme aperte', cls: 'text-bg-warning' },
+  confirm_closed: { text: 'Riconferme chiuse', cls: 'text-bg-success' },
+};
+const badge = phaseLabels[phase] || { text: phase, cls: 'text-bg-secondary' };
+%>
+<nav class="navbar navbar-expand-md navbar-dark app-navbar">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="/">⚽ FantaMammt</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <% if (team) { %>
+          <li class="nav-item"><a class="nav-link" href="/voting">Vota</a></li>
+          <li class="nav-item"><a class="nav-link" href="/tally">Voti ricevuti</a></li>
+          <li class="nav-item"><a class="nav-link" href="/confirm">Riconferme</a></li>
+        <% } %>
+        <% if (isAdmin) { %>
+          <li class="nav-item"><a class="nav-link" href="/admin">Dashboard</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admin/teams">Squadre</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admin/overview">Panoramica voti</a></li>
+          <li class="nav-item"><a class="nav-link" href="/admin/results">Risultati riconferme</a></li>
+        <% } %>
+      </ul>
+      <span class="badge <%= badge.cls %> me-3"><%= badge.text %></span>
+      <span class="navbar-text text-white-50 me-3">
+        <% if (team) { %>👤 <%= team.name %><% } else if (isAdmin) { %>🛠️ Admin<% } %>
+      </span>
+      <% if (team || isAdmin) { %>
+        <form action="/logout" method="post" class="d-inline">
+          <button class="btn btn-sm btn-outline-light" type="submit">Esci</button>
+        </form>
+      <% } %>
+    </div>
+  </div>
+</nav>

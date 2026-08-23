@@ -1,0 +1,51 @@
+<%- include('../partials/header') %>
+
+<h1 class="h3 mb-4">Dashboard admin</h1>
+
+<div class="card mb-4">
+  <div class="card-body">
+    <h2 class="h6 text-muted text-uppercase">Fase corrente</h2>
+    <p class="fs-4 fw-bold mb-3"><%= phase %></p>
+
+    <% const nextIdx = phases.indexOf(phase) + 1; %>
+    <% if (nextIdx < phases.length) { %>
+      <form action="/admin/phase" method="post">
+        <input type="hidden" name="phase" value="<%= phases[nextIdx] %>">
+        <button class="btn btn-primary" type="submit">
+          Avanza a: <%= phases[nextIdx] %>
+        </button>
+      </form>
+    <% } else { %>
+      <p class="text-muted mb-0">Non ci sono altre fasi successive.</p>
+    <% } %>
+  </div>
+</div>
+
+<div class="row g-3">
+  <div class="col-md-4">
+    <a href="/admin/teams" class="card text-decoration-none h-100">
+      <div class="card-body">
+        <h3 class="h6">Squadre &amp; PIN</h3>
+        <p class="text-muted small mb-0">Vedi e resetta i PIN di accesso.</p>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="/admin/overview" class="card text-decoration-none h-100">
+      <div class="card-body">
+        <h3 class="h6">Panoramica voti</h3>
+        <p class="text-muted small mb-0">Matrice completa squadra &times; squadra.</p>
+      </div>
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="/admin/results" class="card text-decoration-none h-100">
+      <div class="card-body">
+        <h3 class="h6">Risultati riconferme</h3>
+        <p class="text-muted small mb-0">Riconferme e costo totale per squadra.</p>
+      </div>
+    </a>
+  </div>
+</div>
+
+<%- include('../partials/footer') %>

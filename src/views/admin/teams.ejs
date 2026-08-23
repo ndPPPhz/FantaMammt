@@ -1,0 +1,33 @@
+<%- include('../partials/header') %>
+
+<h1 class="h3 mb-4">Squadre</h1>
+
+<div class="table-responsive">
+  <table class="table align-middle bg-white">
+    <thead>
+      <tr>
+        <th>Squadra</th>
+        <th>PIN</th>
+        <th>Crediti residui</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% teams.forEach(team => { %>
+        <tr>
+          <td class="fw-semibold"><%= team.name %></td>
+          <td><code><%= team.pin %></code></td>
+          <td><%= team.credits_residui %></td>
+          <td>
+            <form action="/admin/teams/<%= team.id %>/reset-pin" method="post" class="d-inline"
+                  onsubmit="return confirm('Generare un nuovo PIN per <%= team.name %>?');">
+              <button class="btn btn-sm btn-outline-secondary" type="submit">Reset PIN</button>
+            </form>
+          </td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</div>
+
+<%- include('../partials/footer') %>

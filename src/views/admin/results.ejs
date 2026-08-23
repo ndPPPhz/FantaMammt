@@ -1,0 +1,30 @@
+<%- include('../partials/header') %>
+
+<h1 class="h3 mb-4">Risultati riconferme</h1>
+
+<div class="row g-3">
+  <% results.forEach(({ team, players, totalCost }) => { %>
+    <div class="col-md-6">
+      <div class="card h-100">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <span class="fw-semibold"><%= team.name %></span>
+          <span class="badge text-bg-dark">totale: <%= totalCost %></span>
+        </div>
+        <% if (players.length) { %>
+          <ul class="list-group list-group-flush">
+            <% players.forEach(p => { %>
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span><%- include('../partials/roleBadge', { ruolo: p.ruolo }) %> <%= p.nome %></span>
+                <span class="badge text-bg-light border"><%= p.costo_conferma %></span>
+              </li>
+            <% }) %>
+          </ul>
+        <% } else { %>
+          <div class="card-body text-muted small">Nessuna riconferma inviata.</div>
+        <% } %>
+      </div>
+    </div>
+  <% }) %>
+</div>
+
+<%- include('../partials/footer') %>

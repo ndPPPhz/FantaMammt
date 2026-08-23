@@ -1,0 +1,32 @@
+<%- include('../partials/header') %>
+
+<div class="row justify-content-center">
+  <div class="col-md-5">
+    <div class="card shadow-sm">
+      <div class="card-body p-4">
+        <h1 class="h4 mb-3 text-center">Accedi alla tua squadra</h1>
+        <form action="/login" method="post">
+          <div class="mb-3">
+            <label class="form-label" for="name">Squadra</label>
+            <select class="form-select" id="name" name="name" required>
+              <option value="" disabled selected>Scegli la tua squadra&hellip;</option>
+              <% teams.forEach(t => { %>
+                <option value="<%= t.name %>"><%= t.name %></option>
+              <% }) %>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="pin">PIN</label>
+            <input class="form-control" type="password" inputmode="numeric" id="pin" name="pin" required>
+          </div>
+          <button class="btn btn-primary w-100" type="submit">Entra</button>
+        </form>
+        <p class="text-center text-muted small mt-3 mb-0">
+          Sei l'organizzatore? <a href="/admin/login">Accedi come admin</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('../partials/footer') %>

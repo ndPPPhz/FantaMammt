@@ -1,0 +1,21 @@
+<%
+// params: player, checked, showCost (bool), disabled (bool)
+%>
+<label class="list-group-item d-flex align-items-center gap-2 player-row <%= checked ? 'player-row-checked' : '' %>">
+  <input
+    class="form-check-input flex-shrink-0"
+    type="checkbox"
+    name="playerIds"
+    value="<%= player.id %>"
+    data-role="<%= player.ruolo %>"
+    data-cost="<%= showCost ? player.costoConferma : 0 %>"
+    <%= checked ? 'checked' : '' %>
+    <%= disabled ? 'disabled' : '' %>
+  >
+  <%- include('./roleBadge', { ruolo: player.ruolo }) %>
+  <span class="flex-grow-1"><%= player.nome %> <span class="text-muted small">(<%= player.squadra %>)</span></span>
+  <span class="text-muted small">costo prec. <%= player.costo_precedente %></span>
+  <% if (showCost) { %>
+    <span class="badge text-bg-dark">conferma: <%= player.costoConferma %> <span class="opacity-75">(<%= player.numVoti %> voti)</span></span>
+  <% } %>
+</label>

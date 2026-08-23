@@ -1,0 +1,1856 @@
+[
+  {
+    "name": "AC Dentaccio",
+    "credits_residui": 49,
+    "players": [
+      {
+        "role": "P",
+        "name": "Skorupski",
+        "club": "Bol",
+        "cost": 15
+      },
+      {
+        "role": "P",
+        "name": "Ravaglia F.",
+        "club": "Bol",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Butez",
+        "club": "Com",
+        "cost": 20
+      },
+      {
+        "role": "P",
+        "name": "Tornqvist",
+        "club": "Com",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Juan Jesus",
+        "club": "Nap",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Romagnoli",
+        "club": "Laz",
+        "cost": 10
+      },
+      {
+        "role": "D",
+        "name": "Marusic",
+        "club": "Laz",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Zappa",
+        "club": "Cag",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Pavlovic",
+        "club": "Mil",
+        "cost": 5
+      },
+      {
+        "role": "D",
+        "name": "Beukema",
+        "club": "Nap",
+        "cost": 14
+      },
+      {
+        "role": "D",
+        "name": "Zemura",
+        "club": "Udi",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Gaspar K.",
+        "club": "Lec",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Coco",
+        "club": "Tor",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "De Roon",
+        "club": "Ata",
+        "cost": 4
+      },
+      {
+        "role": "C",
+        "name": "Zielinski",
+        "club": "Int",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Politano",
+        "club": "Nap",
+        "cost": 41
+      },
+      {
+        "role": "C",
+        "name": "Zaccagni",
+        "club": "Laz",
+        "cost": 99
+      },
+      {
+        "role": "C",
+        "name": "Cristante",
+        "club": "Rom",
+        "cost": 2
+      },
+      {
+        "role": "C",
+        "name": "Mandragora",
+        "club": "Fio",
+        "cost": 14
+      },
+      {
+        "role": "C",
+        "name": "Fagioli",
+        "club": "Fio",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Strefezza",
+        "club": "Par",
+        "cost": 10
+      },
+      {
+        "role": "C",
+        "name": "Serdar",
+        "club": "Ver",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Neres",
+        "club": "Nap",
+        "cost": 7
+      },
+      {
+        "role": "C",
+        "name": "Santos A.",
+        "club": "Nap",
+        "cost": 3
+      },
+      {
+        "role": "A",
+        "name": "Pedro",
+        "club": "Laz",
+        "cost": 3
+      },
+      {
+        "role": "A",
+        "name": "Martinez L.",
+        "club": "Int",
+        "cost": 150
+      },
+      {
+        "role": "A",
+        "name": "Moreo",
+        "club": "Pis",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "De Ketelaere",
+        "club": "Ata",
+        "cost": 41
+      },
+      {
+        "role": "A",
+        "name": "Hojlund",
+        "club": "Nap",
+        "cost": 92
+      },
+      {
+        "role": "A",
+        "name": "Kuhn",
+        "club": "Com",
+        "cost": 4
+      }
+    ]
+  },
+  {
+    "name": "Poco lucidi",
+    "credits_residui": 0,
+    "players": [
+      {
+        "role": "P",
+        "name": "Falcone",
+        "club": "Lec",
+        "cost": 3
+      },
+      {
+        "role": "P",
+        "name": "Muric",
+        "club": "Sas",
+        "cost": 5
+      },
+      {
+        "role": "P",
+        "name": "Turati",
+        "club": "Sas",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Bijlow",
+        "club": "Gen",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Bastoni",
+        "club": "Int",
+        "cost": 40
+      },
+      {
+        "role": "D",
+        "name": "Akanji",
+        "club": "Int",
+        "cost": 17
+      },
+      {
+        "role": "D",
+        "name": "Walukiewicz",
+        "club": "Sas",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Vojvoda",
+        "club": "Com",
+        "cost": 10
+      },
+      {
+        "role": "D",
+        "name": "Obert",
+        "club": "Cag",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Gila",
+        "club": "Laz",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Kristensen T.",
+        "club": "Udi",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Norton-Cuffy",
+        "club": "Gen",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Veiga D.",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Canestrelli",
+        "club": "Pis",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Locatelli",
+        "club": "Juv",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Mkhitaryan",
+        "club": "Int",
+        "cost": 2
+      },
+      {
+        "role": "C",
+        "name": "Fofana Y.",
+        "club": "Mil",
+        "cost": 5
+      },
+      {
+        "role": "C",
+        "name": "Ricci S.",
+        "club": "Mil",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Miretti",
+        "club": "Juv",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Pisilli",
+        "club": "Rom",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "El Aynaoui",
+        "club": "Rom",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Ramadani",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Pierotti",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Bernede",
+        "club": "Ver",
+        "cost": 2
+      },
+      {
+        "role": "C",
+        "name": "Sucic P.",
+        "club": "Int",
+        "cost": 24
+      },
+      {
+        "role": "A",
+        "name": "Thuram",
+        "club": "Int",
+        "cost": 205
+      },
+      {
+        "role": "A",
+        "name": "Colombo",
+        "club": "Gen",
+        "cost": 30
+      },
+      {
+        "role": "A",
+        "name": "Malen",
+        "club": "Rom",
+        "cost": 140
+      },
+      {
+        "role": "A",
+        "name": "Cheddira",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Bonny",
+        "club": "Int",
+        "cost": 12
+      }
+    ]
+  },
+  {
+    "name": "la Presenza",
+    "credits_residui": 18,
+    "players": [
+      {
+        "role": "P",
+        "name": "Sommer",
+        "club": "Int",
+        "cost": 40
+      },
+      {
+        "role": "P",
+        "name": "Paleari",
+        "club": "Tor",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Okoye",
+        "club": "Udi",
+        "cost": 4
+      },
+      {
+        "role": "D",
+        "name": "Gosens",
+        "club": "Fio",
+        "cost": 22
+      },
+      {
+        "role": "D",
+        "name": "Martin",
+        "club": "Gen",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Kalulu",
+        "club": "Juv",
+        "cost": 5
+      },
+      {
+        "role": "D",
+        "name": "Gutierrez",
+        "club": "Nap",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Frese",
+        "club": "Ver",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Palestra",
+        "club": "Cag",
+        "cost": 5
+      },
+      {
+        "role": "D",
+        "name": "Valle",
+        "club": "Com",
+        "cost": 11
+      },
+      {
+        "role": "D",
+        "name": "Wesley",
+        "club": "Rom",
+        "cost": 26
+      },
+      {
+        "role": "C",
+        "name": "Orsolini",
+        "club": "Bol",
+        "cost": 77
+      },
+      {
+        "role": "C",
+        "name": "Frattesi",
+        "club": "Int",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Basic",
+        "club": "Laz",
+        "cost": 7
+      },
+      {
+        "role": "C",
+        "name": "Zhegrova",
+        "club": "Juv",
+        "cost": 19
+      },
+      {
+        "role": "C",
+        "name": "Berisha M.",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Zaragoza",
+        "club": "Rom",
+        "cost": 12
+      },
+      {
+        "role": "C",
+        "name": "Adzic",
+        "club": "Juv",
+        "cost": 6
+      },
+      {
+        "role": "C",
+        "name": "Paz N.",
+        "club": "Com",
+        "cost": 48
+      },
+      {
+        "role": "C",
+        "name": "Conceicao",
+        "club": "Juv",
+        "cost": 41
+      },
+      {
+        "role": "C",
+        "name": "Atta",
+        "club": "Udi",
+        "cost": 20
+      },
+      {
+        "role": "C",
+        "name": "Collocolo",
+        "club": "Cre",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Soulè",
+        "club": "Rom",
+        "cost": 25
+      },
+      {
+        "role": "A",
+        "name": "Castro S.",
+        "club": "Bol",
+        "cost": 23
+      },
+      {
+        "role": "A",
+        "name": "Dallinga",
+        "club": "Bol",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Meister",
+        "club": "Pis",
+        "cost": 6
+      },
+      {
+        "role": "A",
+        "name": "Vaz",
+        "club": "Rom",
+        "cost": 5
+      },
+      {
+        "role": "A",
+        "name": "Kilicsoy",
+        "club": "Cag",
+        "cost": 58
+      },
+      {
+        "role": "A",
+        "name": "Stulic",
+        "club": "Lec",
+        "cost": 4
+      },
+      {
+        "role": "A",
+        "name": "Durosinmi",
+        "club": "Pis",
+        "cost": 30
+      }
+    ]
+  },
+  {
+    "name": "OPS Clown",
+    "credits_residui": 1,
+    "players": [
+      {
+        "role": "P",
+        "name": "Audero",
+        "club": "Cre",
+        "cost": 3
+      },
+      {
+        "role": "P",
+        "name": "De Gea",
+        "club": "Fio",
+        "cost": 35
+      },
+      {
+        "role": "P",
+        "name": "Christensen O.",
+        "club": "Fio",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Rugani",
+        "club": "Fio",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Hermoso",
+        "club": "Rom",
+        "cost": 4
+      },
+      {
+        "role": "D",
+        "name": "Scalvini",
+        "club": "Ata",
+        "cost": 9
+      },
+      {
+        "role": "D",
+        "name": "Tavares N.",
+        "club": "Laz",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Holm",
+        "club": "Juv",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Terracciano F.",
+        "club": "Cre",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Doig",
+        "club": "Sas",
+        "cost": 5
+      },
+      {
+        "role": "D",
+        "name": "Dodò",
+        "club": "Fio",
+        "cost": 22
+      },
+      {
+        "role": "D",
+        "name": "Cabal",
+        "club": "Juv",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Angori",
+        "club": "Pis",
+        "cost": 7
+      },
+      {
+        "role": "D",
+        "name": "Joao Mario",
+        "club": "Bol",
+        "cost": 12
+      },
+      {
+        "role": "C",
+        "name": "Odgaard",
+        "club": "Bol",
+        "cost": 19
+      },
+      {
+        "role": "C",
+        "name": "Gaetano",
+        "club": "Cag",
+        "cost": 9
+      },
+      {
+        "role": "C",
+        "name": "Elmas",
+        "club": "Nap",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Maldini",
+        "club": "Laz",
+        "cost": 18
+      },
+      {
+        "role": "C",
+        "name": "Pobega",
+        "club": "Bol",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Zalewski",
+        "club": "Ata",
+        "cost": 12
+      },
+      {
+        "role": "C",
+        "name": "Gudmundsson A.",
+        "club": "Fio",
+        "cost": 40
+      },
+      {
+        "role": "C",
+        "name": "Iling Junior",
+        "club": "Pis",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Tourè I.",
+        "club": "Pis",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Kean",
+        "club": "Fio",
+        "cost": 90
+      },
+      {
+        "role": "A",
+        "name": "Scamacca",
+        "club": "Ata",
+        "cost": 19
+      },
+      {
+        "role": "A",
+        "name": "Nkunku",
+        "club": "Mil",
+        "cost": 53
+      },
+      {
+        "role": "A",
+        "name": "Solomon",
+        "club": "Fio",
+        "cost": 37
+      },
+      {
+        "role": "A",
+        "name": "Krstovic",
+        "club": "Ata",
+        "cost": 23
+      },
+      {
+        "role": "A",
+        "name": "Ratkov",
+        "club": "Laz",
+        "cost": 59
+      }
+    ]
+  },
+  {
+    "name": "UPN 1926",
+    "credits_residui": 6,
+    "players": [
+      {
+        "role": "P",
+        "name": "Terracciano",
+        "club": "Mil",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Maignan",
+        "club": "Mil",
+        "cost": 44
+      },
+      {
+        "role": "P",
+        "name": "Torriani",
+        "club": "Mil",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Spinazzola",
+        "club": "Nap",
+        "cost": 26
+      },
+      {
+        "role": "D",
+        "name": "Gabbia",
+        "club": "Mil",
+        "cost": 4
+      },
+      {
+        "role": "D",
+        "name": "Gallo",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "De Winter",
+        "club": "Mil",
+        "cost": 4
+      },
+      {
+        "role": "D",
+        "name": "Olivera",
+        "club": "Nap",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Bisseck",
+        "club": "Int",
+        "cost": 7
+      },
+      {
+        "role": "D",
+        "name": "Bartesaghi",
+        "club": "Mil",
+        "cost": 19
+      },
+      {
+        "role": "D",
+        "name": "Ahanor",
+        "club": "Ata",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Modric",
+        "club": "Mil",
+        "cost": 17
+      },
+      {
+        "role": "C",
+        "name": "McTominay",
+        "club": "Nap",
+        "cost": 65
+      },
+      {
+        "role": "C",
+        "name": "Saelemaekers",
+        "club": "Mil",
+        "cost": 13
+      },
+      {
+        "role": "C",
+        "name": "McKennie",
+        "club": "Juv",
+        "cost": 6
+      },
+      {
+        "role": "C",
+        "name": "Ferguson",
+        "club": "Bol",
+        "cost": 7
+      },
+      {
+        "role": "C",
+        "name": "Fabbian",
+        "club": "Fio",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Ekkelenkamp",
+        "club": "Udi",
+        "cost": 5
+      },
+      {
+        "role": "C",
+        "name": "Fadera",
+        "club": "Sas",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Vandeputte",
+        "club": "Cre",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Jashari",
+        "club": "Mil",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Vergara",
+        "club": "Nap",
+        "cost": 51
+      },
+      {
+        "role": "A",
+        "name": "Dybala",
+        "club": "Rom",
+        "cost": 52
+      },
+      {
+        "role": "A",
+        "name": "Lukaku",
+        "club": "Nap",
+        "cost": 8
+      },
+      {
+        "role": "A",
+        "name": "Vitinha O.",
+        "club": "Gen",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Openda",
+        "club": "Juv",
+        "cost": 35
+      },
+      {
+        "role": "A",
+        "name": "Ferguson E.",
+        "club": "Rom",
+        "cost": 4
+      },
+      {
+        "role": "A",
+        "name": "Yildiz",
+        "club": "Juv",
+        "cost": 153
+      },
+      {
+        "role": "A",
+        "name": "Camarda",
+        "club": "Lec",
+        "cost": 6
+      },
+      {
+        "role": "A",
+        "name": "Esposito F.P.",
+        "club": "Int",
+        "cost": 23
+      }
+    ]
+  },
+  {
+    "name": "Team Giovannelli",
+    "credits_residui": 48,
+    "players": [
+      {
+        "role": "P",
+        "name": "Gollini",
+        "club": "Rom",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Svilar",
+        "club": "Rom",
+        "cost": 51
+      },
+      {
+        "role": "P",
+        "name": "Vasquez D. *",
+        "club": "Rom",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Dimarco",
+        "club": "Int",
+        "cost": 36
+      },
+      {
+        "role": "D",
+        "name": "Darmian",
+        "club": "Int",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Di Lorenzo",
+        "club": "Nap",
+        "cost": 23
+      },
+      {
+        "role": "D",
+        "name": "Diego Carlos",
+        "club": "Com",
+        "cost": 5
+      },
+      {
+        "role": "D",
+        "name": "Celik",
+        "club": "Rom",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Tomori",
+        "club": "Mil",
+        "cost": 8
+      },
+      {
+        "role": "D",
+        "name": "Cambiaso",
+        "club": "Juv",
+        "cost": 30
+      },
+      {
+        "role": "D",
+        "name": "Carlos Augusto",
+        "club": "Int",
+        "cost": 12
+      },
+      {
+        "role": "D",
+        "name": "Kempf",
+        "club": "Com",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Freuler",
+        "club": "Bol",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Leris",
+        "club": "Pis",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Sottil",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Zambo Anguissa",
+        "club": "Nap",
+        "cost": 20
+      },
+      {
+        "role": "C",
+        "name": "Rovella",
+        "club": "Laz",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Luis Henrique",
+        "club": "Int",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Coulibaly L.",
+        "club": "Lec",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Baldanzi",
+        "club": "Gen",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Diouf",
+        "club": "Int",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Bernabè",
+        "club": "Par",
+        "cost": 12
+      },
+      {
+        "role": "C",
+        "name": "Karlstrom",
+        "club": "Udi",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Anjorin",
+        "club": "Tor",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Morata",
+        "club": "Com",
+        "cost": 40
+      },
+      {
+        "role": "A",
+        "name": "Berardi",
+        "club": "Sas",
+        "cost": 113
+      },
+      {
+        "role": "A",
+        "name": "Zapata D.",
+        "club": "Tor",
+        "cost": 6
+      },
+      {
+        "role": "A",
+        "name": "Vlahovic",
+        "club": "Juv",
+        "cost": 109
+      },
+      {
+        "role": "A",
+        "name": "Dia",
+        "club": "Laz",
+        "cost": 26
+      },
+      {
+        "role": "A",
+        "name": "Borrelli",
+        "club": "Cag",
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "name": "Athletic Senzagobbi",
+    "credits_residui": 106,
+    "players": [
+      {
+        "role": "P",
+        "name": "Sportiello",
+        "club": "Ata",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Caprile",
+        "club": "Cag",
+        "cost": 3
+      },
+      {
+        "role": "P",
+        "name": "Carnesecchi",
+        "club": "Ata",
+        "cost": 36
+      },
+      {
+        "role": "D",
+        "name": "Djimsiti",
+        "club": "Ata",
+        "cost": 4
+      },
+      {
+        "role": "D",
+        "name": "Mina",
+        "club": "Cag",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "N'Dicka",
+        "club": "Rom",
+        "cost": 4
+      },
+      {
+        "role": "D",
+        "name": "Rrahmani",
+        "club": "Nap",
+        "cost": 15
+      },
+      {
+        "role": "D",
+        "name": "Maripan",
+        "club": "Tor",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Miranda J.",
+        "club": "Bol",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Angelino",
+        "club": "Rom",
+        "cost": 10
+      },
+      {
+        "role": "D",
+        "name": "Bellanova",
+        "club": "Ata",
+        "cost": 26
+      },
+      {
+        "role": "D",
+        "name": "Vasquez",
+        "club": "Gen",
+        "cost": 9
+      },
+      {
+        "role": "D",
+        "name": "Muharemovic",
+        "club": "Sas",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Pellegrini Lo.",
+        "club": "Rom",
+        "cost": 4
+      },
+      {
+        "role": "C",
+        "name": "Rabiot",
+        "club": "Mil",
+        "cost": 21
+      },
+      {
+        "role": "C",
+        "name": "De Bruyne",
+        "club": "Nap",
+        "cost": 27
+      },
+      {
+        "role": "C",
+        "name": "Lobotka",
+        "club": "Nap",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Caqueret",
+        "club": "Com",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Casadei",
+        "club": "Tor",
+        "cost": 5
+      },
+      {
+        "role": "C",
+        "name": "Folorunsho",
+        "club": "Cag",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Rowe",
+        "club": "Bol",
+        "cost": 8
+      },
+      {
+        "role": "C",
+        "name": "Taylor K.",
+        "club": "Laz",
+        "cost": 8
+      },
+      {
+        "role": "A",
+        "name": "Pinamonti",
+        "club": "Sas",
+        "cost": 45
+      },
+      {
+        "role": "A",
+        "name": "Simeone",
+        "club": "Tor",
+        "cost": 7
+      },
+      {
+        "role": "A",
+        "name": "Vardy",
+        "club": "Cre",
+        "cost": 15
+      },
+      {
+        "role": "A",
+        "name": "Leao",
+        "club": "Mil",
+        "cost": 22
+      },
+      {
+        "role": "A",
+        "name": "Diao",
+        "club": "Com",
+        "cost": 17
+      },
+      {
+        "role": "A",
+        "name": "Pellegrino M.",
+        "club": "Par",
+        "cost": 56
+      },
+      {
+        "role": "A",
+        "name": "Rodriguez Je.",
+        "club": "Com",
+        "cost": 4
+      },
+      {
+        "role": "A",
+        "name": "Bowie",
+        "club": "Ver",
+        "cost": 1
+      }
+    ]
+  },
+  {
+    "name": "Succursale Paki FC",
+    "credits_residui": 44,
+    "players": [
+      {
+        "role": "P",
+        "name": "Provedel",
+        "club": "Laz",
+        "cost": 21
+      },
+      {
+        "role": "P",
+        "name": "Semper",
+        "club": "Pis",
+        "cost": 3
+      },
+      {
+        "role": "P",
+        "name": "Motta",
+        "club": "Laz",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Luperto",
+        "club": "Cre",
+        "cost": 8
+      },
+      {
+        "role": "D",
+        "name": "Zappacosta",
+        "club": "Ata",
+        "cost": 11
+      },
+      {
+        "role": "D",
+        "name": "Zortea",
+        "club": "Bol",
+        "cost": 23
+      },
+      {
+        "role": "D",
+        "name": "Estupinan",
+        "club": "Mil",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Baschirotto",
+        "club": "Cre",
+        "cost": 11
+      },
+      {
+        "role": "D",
+        "name": "Valeri",
+        "club": "Par",
+        "cost": 13
+      },
+      {
+        "role": "D",
+        "name": "Comuzzo",
+        "club": "Fio",
+        "cost": 5
+      },
+      {
+        "role": "D",
+        "name": "Circati",
+        "club": "Par",
+        "cost": 7
+      },
+      {
+        "role": "D",
+        "name": "Delprato",
+        "club": "Par",
+        "cost": 7
+      },
+      {
+        "role": "D",
+        "name": "Rensch",
+        "club": "Rom",
+        "cost": 6
+      },
+      {
+        "role": "D",
+        "name": "Floriani Mussolini",
+        "club": "Cre",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Cataldi",
+        "club": "Laz",
+        "cost": 2
+      },
+      {
+        "role": "C",
+        "name": "Barella",
+        "club": "Int",
+        "cost": 27
+      },
+      {
+        "role": "C",
+        "name": "Pulisic",
+        "club": "Mil",
+        "cost": 90
+      },
+      {
+        "role": "C",
+        "name": "Matic",
+        "club": "Sas",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Adopo",
+        "club": "Cag",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Tramoni M.",
+        "club": "Pis",
+        "cost": 6
+      },
+      {
+        "role": "C",
+        "name": "Da Cunha",
+        "club": "Com",
+        "cost": 4
+      },
+      {
+        "role": "C",
+        "name": "Thuram K.",
+        "club": "Juv",
+        "cost": 46
+      },
+      {
+        "role": "C",
+        "name": "Ellertsson",
+        "club": "Gen",
+        "cost": 10
+      },
+      {
+        "role": "C",
+        "name": "Perrone",
+        "club": "Com",
+        "cost": 35
+      },
+      {
+        "role": "A",
+        "name": "Bonazzoli",
+        "club": "Cre",
+        "cost": 2
+      },
+      {
+        "role": "A",
+        "name": "Cambiaghi",
+        "club": "Bol",
+        "cost": 17
+      },
+      {
+        "role": "A",
+        "name": "David",
+        "club": "Juv",
+        "cost": 110
+      },
+      {
+        "role": "A",
+        "name": "Sarr A.",
+        "club": "Ver",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Orban G.",
+        "club": "Ver",
+        "cost": 33
+      },
+      {
+        "role": "A",
+        "name": "Douvikas",
+        "club": "Com",
+        "cost": 25
+      }
+    ]
+  },
+  {
+    "name": "Bluff o Fenomeno?",
+    "credits_residui": 0,
+    "players": [
+      {
+        "role": "P",
+        "name": "Perilli",
+        "club": "Ver",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Meret",
+        "club": "Nap",
+        "cost": 39
+      },
+      {
+        "role": "P",
+        "name": "Milinkovic-Savic V.",
+        "club": "Nap",
+        "cost": 15
+      },
+      {
+        "role": "P",
+        "name": "Montipò",
+        "club": "Ver",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Mancini",
+        "club": "Rom",
+        "cost": 21
+      },
+      {
+        "role": "D",
+        "name": "Ostigard",
+        "club": "Gen",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Hien",
+        "club": "Ata",
+        "cost": 7
+      },
+      {
+        "role": "D",
+        "name": "Kelly L.",
+        "club": "Juv",
+        "cost": 5
+      },
+      {
+        "role": "D",
+        "name": "Solet",
+        "club": "Udi",
+        "cost": 23
+      },
+      {
+        "role": "D",
+        "name": "Nelsson",
+        "club": "Ver",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Heggem",
+        "club": "Bol",
+        "cost": 3
+      },
+      {
+        "role": "D",
+        "name": "Bernasconi",
+        "club": "Ata",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Bernardeschi",
+        "club": "Bol",
+        "cost": 15
+      },
+      {
+        "role": "C",
+        "name": "Calhanoglu",
+        "club": "Int",
+        "cost": 54
+      },
+      {
+        "role": "C",
+        "name": "Loftus-Cheek",
+        "club": "Mil",
+        "cost": 19
+      },
+      {
+        "role": "C",
+        "name": "Malinovskyi",
+        "club": "Gen",
+        "cost": 8
+      },
+      {
+        "role": "C",
+        "name": "Brescianini",
+        "club": "Fio",
+        "cost": 6
+      },
+      {
+        "role": "C",
+        "name": "Konè M.",
+        "club": "Rom",
+        "cost": 15
+      },
+      {
+        "role": "C",
+        "name": "Harrison",
+        "club": "Fio",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Frendrup",
+        "club": "Gen",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Thorstvedt",
+        "club": "Sas",
+        "cost": 2
+      },
+      {
+        "role": "A",
+        "name": "Fullkrug",
+        "club": "Mil",
+        "cost": 58
+      },
+      {
+        "role": "A",
+        "name": "Piccoli",
+        "club": "Fio",
+        "cost": 40
+      },
+      {
+        "role": "A",
+        "name": "Nzola",
+        "club": "Sas",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Cancellieri",
+        "club": "Laz",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Ekuban",
+        "club": "Gen",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Laurientè",
+        "club": "Sas",
+        "cost": 16
+      },
+      {
+        "role": "A",
+        "name": "Addai",
+        "club": "Com",
+        "cost": 2
+      },
+      {
+        "role": "A",
+        "name": "Giovane",
+        "club": "Nap",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Kulenovic",
+        "club": "Tor",
+        "cost": 62
+      }
+    ]
+  },
+  {
+    "name": "Ogni Giorno Una Grava 1989",
+    "credits_residui": 33,
+    "players": [
+      {
+        "role": "P",
+        "name": "Perin",
+        "club": "Juv",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Martinez Jo.",
+        "club": "Int",
+        "cost": 1
+      },
+      {
+        "role": "P",
+        "name": "Di Gregorio",
+        "club": "Juv",
+        "cost": 50
+      },
+      {
+        "role": "D",
+        "name": "Buongiorno",
+        "club": "Nap",
+        "cost": 20
+      },
+      {
+        "role": "D",
+        "name": "Bremer",
+        "club": "Juv",
+        "cost": 50
+      },
+      {
+        "role": "D",
+        "name": "Dumfries",
+        "club": "Int",
+        "cost": 38
+      },
+      {
+        "role": "D",
+        "name": "Pongracic",
+        "club": "Fio",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Idzes",
+        "club": "Sas",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Ramon",
+        "club": "Com",
+        "cost": 12
+      },
+      {
+        "role": "D",
+        "name": "Tiago Gabriel",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Belghali",
+        "club": "Ver",
+        "cost": 2
+      },
+      {
+        "role": "D",
+        "name": "Britschgi",
+        "club": "Par",
+        "cost": 1
+      },
+      {
+        "role": "D",
+        "name": "Obrador",
+        "club": "Tor",
+        "cost": 3
+      },
+      {
+        "role": "C",
+        "name": "Zaniolo",
+        "club": "Udi",
+        "cost": 19
+      },
+      {
+        "role": "C",
+        "name": "Samardzic",
+        "club": "Ata",
+        "cost": 9
+      },
+      {
+        "role": "C",
+        "name": "Koopmeiners",
+        "club": "Juv",
+        "cost": 15
+      },
+      {
+        "role": "C",
+        "name": "Vlasic",
+        "club": "Tor",
+        "cost": 18
+      },
+      {
+        "role": "C",
+        "name": "Ederson D.S.",
+        "club": "Ata",
+        "cost": 18
+      },
+      {
+        "role": "C",
+        "name": "Isaksen",
+        "club": "Laz",
+        "cost": 13
+      },
+      {
+        "role": "C",
+        "name": "Konè I.",
+        "club": "Sas",
+        "cost": 1
+      },
+      {
+        "role": "C",
+        "name": "Baturina",
+        "club": "Com",
+        "cost": 4
+      },
+      {
+        "role": "C",
+        "name": "Gandelman",
+        "club": "Lec",
+        "cost": 5
+      },
+      {
+        "role": "A",
+        "name": "Boga",
+        "club": "Juv",
+        "cost": 6
+      },
+      {
+        "role": "A",
+        "name": "Raspadori",
+        "club": "Ata",
+        "cost": 84
+      },
+      {
+        "role": "A",
+        "name": "Esposito Se.",
+        "club": "Cag",
+        "cost": 16
+      },
+      {
+        "role": "A",
+        "name": "Davis K.",
+        "club": "Udi",
+        "cost": 27
+      },
+      {
+        "role": "A",
+        "name": "Sulemana K.",
+        "club": "Ata",
+        "cost": 31
+      },
+      {
+        "role": "A",
+        "name": "Banda",
+        "club": "Lec",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Noslin",
+        "club": "Laz",
+        "cost": 1
+      },
+      {
+        "role": "A",
+        "name": "Adams C.",
+        "club": "Tor",
+        "cost": 4
+      }
+    ]
+  }
+]

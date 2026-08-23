@@ -1,0 +1,72 @@
+:root {
+  --fm-primary: #1e3a5f;
+  --fm-primary-dark: #142a45;
+  --fm-accent: #ffb703;
+}
+
+body {
+  background-color: #f4f6f9;
+  color: #1c1c1c;
+}
+
+.app-navbar {
+  background: linear-gradient(135deg, var(--fm-primary), var(--fm-primary-dark));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0.6rem;
+}
+
+.card-header {
+  background-color: #eef1f6;
+}
+
+.team-card {
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.team-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.team-card-started {
+  border-color: var(--fm-primary);
+}
+
+.selection-bar {
+  top: 0.5rem;
+  z-index: 10;
+}
+
+.role-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+.role-P { background-color: #e0a800; }
+.role-D { background-color: #2e7d32; }
+.role-C { background-color: #1565c0; }
+.role-A { background-color: #c62828; }
+
+.player-row {
+  transition: background-color 0.1s ease;
+}
+.player-row-checked {
+  background-color: #eef6ff;
+}
+.player-row-disabled {
+  opacity: 0.45;
+}
+
+.table-responsive table th,
+.table-responsive table td {
+  vertical-align: middle;
+}
