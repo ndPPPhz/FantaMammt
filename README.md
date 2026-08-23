@@ -29,6 +29,40 @@ npm start                # avvia il server su http://localhost:3000
 Rilanciare `npm run seed` è sicuro: cancella e ricrea tutti i dati (utile
 in sviluppo, da NON fare a stagione iniziata).
 
+## Deploy in produzione (Arch Linux / systemd)
+
+Setup iniziale sul server, una volta sola:
+
+```bash
+sudo pacman -Syu nodejs npm git base-devel python
+git clone https://github.com/ndPPPhz/FantaMammt.git /opt/fantamammt/app
+cd /opt/fantamammt/app
+npm install --omit=dev
+cp .env.example .env
+nano .env               # SESSION_SECRET e ADMIN_PASSWORD veri, non quelli di test
+npm run seed
+
+sudo cp deploy/fantamammt.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable --now fantamammt
+```
+
+Il unit file assume un utente dedicato `fantamammt` e il checkout in
+`/opt/fantamammt/app`: se il tuo setup è diverso, modifica `User` e
+`WorkingDirectory` in `deploy/fantamammt.service` prima di copiarlo.
+
+Per i successivi aggiornamenti (dopo `git pull` di nuove modifiche), basta:
+
+```bash
+./deploy/deploy.sh
+```
+
+che fa `git pull`, `npm install` e riavvia il servizio — **non** tocca mai
+il database né rilancia il seed.
+
+Per esporlo con dominio e HTTPS, metti nginx (o un altro reverse proxy)
+davanti alla porta 3000 e usa `certbot --nginx` per il certificato.
+
 ## Formula di riconferma
 
 ```

@@ -1,0 +1,26 @@
+# Systemd unit for FantaMammt.
+#
+# Assumes the setup described in the deploy docs: a dedicated `fantamammt`
+# user, with the repo checked out at /opt/fantamammt/app. Adjust User/
+# WorkingDirectory/ExecStart below if your setup differs.
+#
+# Install:
+#   sudo cp deploy/fantamammt.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now fantamammt
+
+[Unit]
+Description=FantaMammt
+After=network.target
+
+[Service]
+Type=simple
+User=fantamammt
+Group=fantamammt
+WorkingDirectory=/opt/fantamammt/app
+ExecStart=/usr/bin/node src/server.js
+Restart=on-failure
+EnvironmentFile=/opt/fantamammt/app/.env
+
+[Install]
+WantedBy=multi-user.target
