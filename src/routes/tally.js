@@ -5,6 +5,10 @@ const voteService = require('../services/voteService');
 const { requireTeamOrAdmin } = require('../middleware/auth');
 
 router.get('/', requireTeamOrAdmin, (req, res) => {
+  if (!res.locals.isAdmin && res.locals.phase !== 'confirm_closed') {
+    return res.render('tally/tally', { title: 'Voti ricevuti', waiting: true });
+  }
+
   const players = playerService.getAllWithTeam();
   const tally = voteService.getVoteTally();
 
@@ -15,7 +19,7 @@ router.get('/', requireTeamOrAdmin, (req, res) => {
 
   rows.sort((a, b) => b.count - a.count);
 
-  res.render('tally/tally', { title: 'Voti ricevuti', rows });
+  res.render('tally/tally', { title: 'Voti ricevuti', waiting: false, rows });
 });
 
 module.exports = router;

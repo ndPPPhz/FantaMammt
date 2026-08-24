@@ -5,10 +5,13 @@ pre-asta della lega di Fantacalcio "Mammt Legapro".
 
 ## Come funziona
 
-1. **Voto di gradimento** (pubblico): ogni squadra sceglie fino a 5
-   giocatori per ciascuna delle altre 9 squadre (max 2 per ruolo, 1
-   portiere). I voti sono visibili a tutti in tempo reale nella pagina
-   "Voti ricevuti", insieme a chi ha già votato e chi manca ancora.
+1. **Voto di gradimento**: ogni squadra sceglie fino a 5 giocatori per
+   ciascuna delle altre 9 squadre (max 2 per ruolo, 1 portiere). La
+   pagina "Vota" mostra solo chi ha già completato il voto e chi manca
+   ancora (senza rivelare le scelte); i conteggi veri e propri in "Voti
+   ricevuti" restano nascosti a tutti (admin escluso) fino a quando anche
+   le riconferme saranno chiuse per l'intera lega, per non influenzare le
+   scelte di riconferma.
 2. **Riconferme** (al buio): dopo che l'admin chiude il voto, ogni squadra
    sceglie fino a 5 giocatori della propria rosa da confermare, con un
    costo calcolato automaticamente in base ai voti ricevuti. Le riconferme
