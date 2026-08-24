@@ -1,13 +1,13 @@
 <%- include('../partials/header') %>
 
 <h1 class="h3 mb-4">Squadre</h1>
+<p class="text-muted">I PIN sono salvati solo come hash: non sono visibili nemmeno da qui, ogni squadra può impostare il proprio da "Cambia PIN". Puoi solo forzarne il reset, che ne genera uno temporaneo da comunicare.</p>
 
 <div class="table-responsive">
   <table class="table align-middle bg-white">
     <thead>
       <tr>
         <th>Squadra</th>
-        <th>PIN</th>
         <th>Crediti residui</th>
         <th></th>
       </tr>
@@ -16,7 +16,6 @@
       <% teams.forEach(team => { %>
         <tr>
           <td class="fw-semibold"><%= team.name %></td>
-          <td><code><%= team.pin %></code></td>
           <td><%= team.credits_residui %></td>
           <td>
             <form action="/admin/teams/<%= team.id %>/reset-pin" method="post" class="d-inline"

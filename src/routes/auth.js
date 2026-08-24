@@ -12,7 +12,7 @@ router.post('/login', (req, res) => {
   const { name, pin } = req.body;
   const team = teamService.findByName(name || '');
 
-  if (!team || team.pin !== String(pin || '').trim()) {
+  if (!team || !teamService.checkPin(team, String(pin || '').trim())) {
     setFlash(req, 'error', 'Squadra o PIN non corretti.');
     return res.redirect('/login');
   }

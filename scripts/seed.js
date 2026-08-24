@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const db = require('../src/db');
 const teamService = require('../src/services/teamService');
+const { hashPin } = require('../src/lib/pin');
 
 function loadSeedData() {
   const filePath = path.join(__dirname, '..', 'data', 'rose_seed.json');
@@ -17,7 +18,7 @@ const seed = db.transaction((teamsData) => {
   db.prepare('DELETE FROM settings').run();
 
   const insertTeam = db.prepare(
-    'INSERT INTO teams (name, pin, credits_residui) VALUES (?, ?, ?)'
+    'INSERT INTO teams (name, pin_hash, credits_residui) VALUES (?, ?, ?)'
   );
   const insertPlayer = db.prepare(
     'INSERT INTO players (team_id, ruolo, nome, squadra, costo_precedente) VALUES (?, ?, ?, ?, ?)'
@@ -27,7 +28,7 @@ const seed = db.transaction((teamsData) => {
 
   for (const team of teamsData) {
     const pin = teamService.generatePin();
-    const info = insertTeam.run(team.name, pin, team.credits_residui || 0);
+    const info = insertTeam.run(team.name, hashPin(pin), team.credits_residui || 0);
     const teamId = info.lastInsertRowid;
     summary.push({ name: team.name, pin });
 
@@ -46,4 +47,4 @@ const summary = seed(teamsData);
 
 console.log(`\nSeed completato: ${teamsData.length} squadre, fase iniziale "voting_open".\n`);
 console.table(summary);
-console.log('\nCondividi il PIN con il relativo allenatore (visibile anche da /admin/teams).\n');
+console.log('\nCondividi il PIN con il relativo allenatore: questa è l\'unica volta in cui è visibile in chiaro, poi ognuno potrà cambiarlo da "Cambia PIN".\n');

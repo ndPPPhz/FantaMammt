@@ -1,0 +1,30 @@
+<%- include('../partials/header') %>
+
+<div class="row justify-content-center">
+  <div class="col-md-5">
+    <h1 class="h3 mb-1">Cambia PIN</h1>
+    <p class="text-muted">Imposta un PIN che conosci solo tu: da questo momento non sarà visibile nemmeno all'admin (che potrà solo resettarlo, non vederlo).</p>
+
+    <div class="card shadow-sm">
+      <div class="card-body p-4">
+        <form action="/account" method="post">
+          <div class="mb-3">
+            <label class="form-label" for="currentPin">PIN attuale</label>
+            <input class="form-control" type="password" inputmode="numeric" id="currentPin" name="currentPin" required autofocus>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="newPin">Nuovo PIN (4 cifre)</label>
+            <input class="form-control" type="password" inputmode="numeric" pattern="\d{4}" maxlength="4" id="newPin" name="newPin" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="confirmPin">Ripeti nuovo PIN</label>
+            <input class="form-control" type="password" inputmode="numeric" pattern="\d{4}" maxlength="4" id="confirmPin" name="confirmPin" required>
+          </div>
+          <button class="btn btn-primary w-100" type="submit">Salva nuovo PIN</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('../partials/footer') %>

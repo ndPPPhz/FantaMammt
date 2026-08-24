@@ -9,6 +9,7 @@ const votingRoutes = require('./routes/voting');
 const tallyRoutes = require('./routes/tally');
 const confirmRoutes = require('./routes/confirm');
 const adminRoutes = require('./routes/admin');
+const accountRoutes = require('./routes/account');
 
 const app = express();
 
@@ -47,6 +48,7 @@ app.use('/voting', votingRoutes);
 app.use('/tally', tallyRoutes);
 app.use('/confirm', confirmRoutes);
 app.use('/admin', adminRoutes);
+app.use('/account', accountRoutes);
 
 app.use((req, res) => {
   res.status(404).render('errors/404', { title: 'Non trovata' });

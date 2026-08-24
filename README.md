@@ -14,8 +14,11 @@ pre-asta della lega di Fantacalcio "Mammt Legapro".
    costo calcolato automaticamente in base ai voti ricevuti. Le riconferme
    di ogni squadra sono visibili solo alla squadra stessa e all'admin.
 
-L'admin controlla l'avanzamento delle fasi da `/admin` e può resettare i
-PIN di accesso delle squadre da `/admin/teams`.
+L'admin controlla l'avanzamento delle fasi da `/admin`. I PIN sono
+salvati solo come hash (nessuno, admin incluso, può vederli in chiaro):
+ogni squadra può impostare il proprio da "Cambia PIN" una volta loggata;
+l'admin può solo forzarne il reset da `/admin/teams`, che genera un PIN
+temporaneo da comunicare.
 
 ## Setup
 
