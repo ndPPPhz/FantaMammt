@@ -11,12 +11,6 @@
       },
       {
         "role": "P",
-        "name": "Ravaglia F.",
-        "club": "Bol",
-        "cost": 1
-      },
-      {
-        "role": "P",
         "name": "Butez",
         "club": "Com",
         "cost": 20
@@ -25,12 +19,6 @@
         "role": "P",
         "name": "Tornqvist",
         "club": "Com",
-        "cost": 1
-      },
-      {
-        "role": "D",
-        "name": "Juan Jesus",
-        "club": "Nap",
         "cost": 1
       },
       {
@@ -62,12 +50,6 @@
         "name": "Beukema",
         "club": "Nap",
         "cost": 14
-      },
-      {
-        "role": "D",
-        "name": "Zemura",
-        "club": "Udi",
-        "cost": 2
       },
       {
         "role": "D",
@@ -124,33 +106,15 @@
         "cost": 1
       },
       {
-        "role": "C",
-        "name": "Strefezza",
-        "club": "Par",
-        "cost": 10
-      },
-      {
-        "role": "C",
-        "name": "Serdar",
-        "club": "Ver",
-        "cost": 1
-      },
-      {
-        "role": "C",
+        "role": "A",
         "name": "Neres",
         "club": "Nap",
         "cost": 7
       },
       {
-        "role": "C",
+        "role": "A",
         "name": "Santos A.",
         "club": "Nap",
-        "cost": 3
-      },
-      {
-        "role": "A",
-        "name": "Pedro",
-        "club": "Laz",
         "cost": 3
       },
       {
@@ -158,12 +122,6 @@
         "name": "Martinez L.",
         "club": "Int",
         "cost": 150
-      },
-      {
-        "role": "A",
-        "name": "Moreo",
-        "club": "Pis",
-        "cost": 1
       },
       {
         "role": "A",
@@ -268,12 +226,6 @@
         "cost": 1
       },
       {
-        "role": "D",
-        "name": "Canestrelli",
-        "club": "Pis",
-        "cost": 1
-      },
-      {
         "role": "C",
         "name": "Locatelli",
         "club": "Juv",
@@ -317,21 +269,9 @@
       },
       {
         "role": "C",
-        "name": "Ramadani",
-        "club": "Lec",
-        "cost": 1
-      },
-      {
-        "role": "C",
         "name": "Pierotti",
         "club": "Lec",
         "cost": 1
-      },
-      {
-        "role": "C",
-        "name": "Bernede",
-        "club": "Ver",
-        "cost": 2
       },
       {
         "role": "C",
@@ -359,12 +299,6 @@
       },
       {
         "role": "A",
-        "name": "Cheddira",
-        "club": "Lec",
-        "cost": 1
-      },
-      {
-        "role": "A",
         "name": "Bonny",
         "club": "Int",
         "cost": 12
@@ -375,12 +309,6 @@
     "name": "la Presenza",
     "credits_residui": 18,
     "players": [
-      {
-        "role": "P",
-        "name": "Sommer",
-        "club": "Int",
-        "cost": 40
-      },
       {
         "role": "P",
         "name": "Paleari",
@@ -395,12 +323,6 @@
       },
       {
         "role": "D",
-        "name": "Gosens",
-        "club": "Fio",
-        "cost": 22
-      },
-      {
-        "role": "D",
         "name": "Martin",
         "club": "Gen",
         "cost": 1
@@ -409,24 +331,6 @@
         "role": "D",
         "name": "Kalulu",
         "club": "Juv",
-        "cost": 5
-      },
-      {
-        "role": "D",
-        "name": "Gutierrez",
-        "club": "Nap",
-        "cost": 1
-      },
-      {
-        "role": "D",
-        "name": "Frese",
-        "club": "Ver",
-        "cost": 1
-      },
-      {
-        "role": "D",
-        "name": "Palestra",
-        "club": "Cag",
         "cost": 5
       },
       {
@@ -473,12 +377,6 @@
       },
       {
         "role": "C",
-        "name": "Zaragoza",
-        "club": "Rom",
-        "cost": 12
-      },
-      {
-        "role": "C",
         "name": "Adzic",
         "club": "Juv",
         "cost": 6
@@ -502,12 +400,6 @@
         "cost": 20
       },
       {
-        "role": "C",
-        "name": "Collocolo",
-        "club": "Cre",
-        "cost": 1
-      },
-      {
         "role": "A",
         "name": "Soulè",
         "club": "Rom",
@@ -521,39 +413,15 @@
       },
       {
         "role": "A",
-        "name": "Dallinga",
-        "club": "Bol",
-        "cost": 1
-      },
-      {
-        "role": "A",
-        "name": "Meister",
-        "club": "Pis",
-        "cost": 6
-      },
-      {
-        "role": "A",
         "name": "Vaz",
         "club": "Rom",
         "cost": 5
       },
       {
         "role": "A",
-        "name": "Kilicsoy",
-        "club": "Cag",
-        "cost": 58
-      },
-      {
-        "role": "A",
         "name": "Stulic",
         "club": "Lec",
         "cost": 4
-      },
-      {
-        "role": "A",
-        "name": "Durosinmi",
-        "club": "Pis",
-        "cost": 30
       }
     ]
   },
@@ -561,12 +429,6 @@
     "name": "OPS Clown",
     "credits_residui": 1,
     "players": [
-      {
-        "role": "P",
-        "name": "Audero",
-        "club": "Cre",
-        "cost": 3
-      },
       {
         "role": "P",
         "name": "De Gea",
@@ -635,12 +497,6 @@
       },
       {
         "role": "D",
-        "name": "Angori",
-        "club": "Pis",
-        "cost": 7
-      },
-      {
-        "role": "D",
         "name": "Joao Mario",
         "club": "Bol",
         "cost": 12
@@ -664,7 +520,7 @@
         "cost": 1
       },
       {
-        "role": "C",
+        "role": "A",
         "name": "Maldini",
         "club": "Laz",
         "cost": 18
@@ -689,12 +545,6 @@
       },
       {
         "role": "C",
-        "name": "Iling Junior",
-        "club": "Pis",
-        "cost": 1
-      },
-      {
-        "role": "C",
         "name": "Tourè I.",
         "club": "Pis",
         "cost": 1
@@ -716,12 +566,6 @@
         "name": "Nkunku",
         "club": "Mil",
         "cost": 53
-      },
-      {
-        "role": "A",
-        "name": "Solomon",
-        "club": "Fio",
-        "cost": 37
       },
       {
         "role": "A",
@@ -857,12 +701,6 @@
       },
       {
         "role": "C",
-        "name": "Vandeputte",
-        "club": "Cre",
-        "cost": 3
-      },
-      {
-        "role": "C",
         "name": "Jashari",
         "club": "Mil",
         "cost": 1
@@ -881,27 +719,9 @@
       },
       {
         "role": "A",
-        "name": "Lukaku",
-        "club": "Nap",
-        "cost": 8
-      },
-      {
-        "role": "A",
         "name": "Vitinha O.",
         "club": "Gen",
         "cost": 1
-      },
-      {
-        "role": "A",
-        "name": "Openda",
-        "club": "Juv",
-        "cost": 35
-      },
-      {
-        "role": "A",
-        "name": "Ferguson E.",
-        "club": "Rom",
-        "cost": 4
       },
       {
         "role": "A",
@@ -940,12 +760,6 @@
         "cost": 51
       },
       {
-        "role": "P",
-        "name": "Vasquez D. *",
-        "club": "Rom",
-        "cost": 1
-      },
-      {
         "role": "D",
         "name": "Dimarco",
         "club": "Int",
@@ -953,21 +767,9 @@
       },
       {
         "role": "D",
-        "name": "Darmian",
-        "club": "Int",
-        "cost": 1
-      },
-      {
-        "role": "D",
         "name": "Di Lorenzo",
         "club": "Nap",
         "cost": 23
-      },
-      {
-        "role": "D",
-        "name": "Diego Carlos",
-        "club": "Com",
-        "cost": 5
       },
       {
         "role": "D",
@@ -997,24 +799,6 @@
         "role": "D",
         "name": "Kempf",
         "club": "Com",
-        "cost": 1
-      },
-      {
-        "role": "C",
-        "name": "Freuler",
-        "club": "Bol",
-        "cost": 1
-      },
-      {
-        "role": "C",
-        "name": "Leris",
-        "club": "Pis",
-        "cost": 1
-      },
-      {
-        "role": "C",
-        "name": "Sottil",
-        "club": "Lec",
         "cost": 1
       },
       {
@@ -1091,12 +875,6 @@
       },
       {
         "role": "A",
-        "name": "Vlahovic",
-        "club": "Juv",
-        "cost": 109
-      },
-      {
-        "role": "A",
         "name": "Dia",
         "club": "Laz",
         "cost": 26
@@ -1133,12 +911,6 @@
       },
       {
         "role": "D",
-        "name": "Djimsiti",
-        "club": "Ata",
-        "cost": 4
-      },
-      {
-        "role": "D",
         "name": "Mina",
         "club": "Cag",
         "cost": 2
@@ -1157,21 +929,9 @@
       },
       {
         "role": "D",
-        "name": "Maripan",
-        "club": "Tor",
-        "cost": 3
-      },
-      {
-        "role": "D",
         "name": "Miranda J.",
         "club": "Bol",
         "cost": 3
-      },
-      {
-        "role": "D",
-        "name": "Angelino",
-        "club": "Rom",
-        "cost": 10
       },
       {
         "role": "D",
@@ -1184,12 +944,6 @@
         "name": "Vasquez",
         "club": "Gen",
         "cost": 9
-      },
-      {
-        "role": "D",
-        "name": "Muharemovic",
-        "club": "Sas",
-        "cost": 3
       },
       {
         "role": "C",
@@ -1259,12 +1013,6 @@
       },
       {
         "role": "A",
-        "name": "Vardy",
-        "club": "Cre",
-        "cost": 15
-      },
-      {
-        "role": "A",
         "name": "Leao",
         "club": "Mil",
         "cost": 22
@@ -1282,7 +1030,7 @@
         "cost": 56
       },
       {
-        "role": "A",
+        "role": "C",
         "name": "Rodriguez Je.",
         "club": "Com",
         "cost": 4
@@ -1307,21 +1055,9 @@
       },
       {
         "role": "P",
-        "name": "Semper",
-        "club": "Pis",
-        "cost": 3
-      },
-      {
-        "role": "P",
         "name": "Motta",
         "club": "Laz",
         "cost": 1
-      },
-      {
-        "role": "D",
-        "name": "Luperto",
-        "club": "Cre",
-        "cost": 8
       },
       {
         "role": "D",
@@ -1343,12 +1079,6 @@
       },
       {
         "role": "D",
-        "name": "Baschirotto",
-        "club": "Cre",
-        "cost": 11
-      },
-      {
-        "role": "D",
         "name": "Valeri",
         "club": "Par",
         "cost": 13
@@ -1358,12 +1088,6 @@
         "name": "Comuzzo",
         "club": "Fio",
         "cost": 5
-      },
-      {
-        "role": "D",
-        "name": "Circati",
-        "club": "Par",
-        "cost": 7
       },
       {
         "role": "D",
@@ -1415,12 +1139,6 @@
       },
       {
         "role": "C",
-        "name": "Tramoni M.",
-        "club": "Pis",
-        "cost": 6
-      },
-      {
-        "role": "C",
         "name": "Da Cunha",
         "club": "Com",
         "cost": 4
@@ -1444,13 +1162,7 @@
         "cost": 35
       },
       {
-        "role": "A",
-        "name": "Bonazzoli",
-        "club": "Cre",
-        "cost": 2
-      },
-      {
-        "role": "A",
+        "role": "C",
         "name": "Cambiaghi",
         "club": "Bol",
         "cost": 17
@@ -1460,18 +1172,6 @@
         "name": "David",
         "club": "Juv",
         "cost": 110
-      },
-      {
-        "role": "A",
-        "name": "Sarr A.",
-        "club": "Ver",
-        "cost": 1
-      },
-      {
-        "role": "A",
-        "name": "Orban G.",
-        "club": "Ver",
-        "cost": 33
       },
       {
         "role": "A",
@@ -1485,12 +1185,6 @@
     "name": "Bluff o Fenomeno?",
     "credits_residui": 0,
     "players": [
-      {
-        "role": "P",
-        "name": "Perilli",
-        "club": "Ver",
-        "cost": 1
-      },
       {
         "role": "P",
         "name": "Meret",
@@ -1541,12 +1235,6 @@
       },
       {
         "role": "D",
-        "name": "Nelsson",
-        "club": "Ver",
-        "cost": 1
-      },
-      {
-        "role": "D",
         "name": "Heggem",
         "club": "Bol",
         "cost": 3
@@ -1577,12 +1265,6 @@
       },
       {
         "role": "C",
-        "name": "Malinovskyi",
-        "club": "Gen",
-        "cost": 8
-      },
-      {
-        "role": "C",
         "name": "Brescianini",
         "club": "Fio",
         "cost": 6
@@ -1592,12 +1274,6 @@
         "name": "Konè M.",
         "club": "Rom",
         "cost": 15
-      },
-      {
-        "role": "C",
-        "name": "Harrison",
-        "club": "Fio",
-        "cost": 1
       },
       {
         "role": "C",
@@ -1613,32 +1289,14 @@
       },
       {
         "role": "A",
-        "name": "Fullkrug",
-        "club": "Mil",
-        "cost": 58
-      },
-      {
-        "role": "A",
         "name": "Piccoli",
         "club": "Fio",
         "cost": 40
       },
       {
-        "role": "A",
-        "name": "Nzola",
-        "club": "Sas",
-        "cost": 1
-      },
-      {
-        "role": "A",
+        "role": "C",
         "name": "Cancellieri",
         "club": "Laz",
-        "cost": 1
-      },
-      {
-        "role": "A",
-        "name": "Ekuban",
-        "club": "Gen",
         "cost": 1
       },
       {
@@ -1648,7 +1306,7 @@
         "cost": 16
       },
       {
-        "role": "A",
+        "role": "C",
         "name": "Addai",
         "club": "Com",
         "cost": 2
@@ -1703,12 +1361,6 @@
       },
       {
         "role": "D",
-        "name": "Dumfries",
-        "club": "Int",
-        "cost": 38
-      },
-      {
-        "role": "D",
         "name": "Pongracic",
         "club": "Fio",
         "cost": 1
@@ -1730,12 +1382,6 @@
         "name": "Tiago Gabriel",
         "club": "Lec",
         "cost": 1
-      },
-      {
-        "role": "D",
-        "name": "Belghali",
-        "club": "Ver",
-        "cost": 2
       },
       {
         "role": "D",
@@ -1832,12 +1478,6 @@
         "name": "Sulemana K.",
         "club": "Ata",
         "cost": 31
-      },
-      {
-        "role": "A",
-        "name": "Banda",
-        "club": "Lec",
-        "cost": 1
       },
       {
         "role": "A",
