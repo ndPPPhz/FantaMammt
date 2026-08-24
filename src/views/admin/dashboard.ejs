@@ -21,6 +21,22 @@
   </div>
 </div>
 
+<div class="card mb-4">
+  <div class="card-body">
+    <h2 class="h6 text-muted text-uppercase">Riconferme</h2>
+    <p class="mb-2">
+      <span class="badge <%= confirmProgress.doneCount === confirmProgress.totalTeams ? 'text-bg-success' : 'text-bg-secondary' %> fs-6">
+        <%= confirmProgress.doneCount %>/<%= confirmProgress.totalTeams %> squadre
+      </span>
+    </p>
+    <% if (confirmProgress.missing.length) { %>
+      <p class="text-muted small mb-0">Mancano ancora: <%= confirmProgress.missing.join(', ') %></p>
+    <% } else { %>
+      <p class="text-muted small mb-0">Tutte le squadre hanno confermato.</p>
+    <% } %>
+  </div>
+</div>
+
 <div class="row g-3">
   <div class="col-md-4">
     <a href="/admin/teams" class="card text-decoration-none h-100">

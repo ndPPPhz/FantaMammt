@@ -32,6 +32,23 @@ const replaceConfirmations = db.transaction((teamId, playerIds) => {
   }
 });
 
+// Uses "has at least one confirmation row" as the signal for "has
+// submitted", same as /admin/results already does implicitly - no extra
+// table needed (unlike voting, a team confirming zero players on purpose
+// isn't a realistic case worth distinguishing).
+function getProgress() {
+  const teams = db.prepare('SELECT id, name FROM teams ORDER BY name').all();
+  const confirmedTeamIds = new Set(
+    db.prepare('SELECT DISTINCT team_id FROM confirmations').all().map((r) => r.team_id)
+  );
+  const missing = teams.filter((t) => !confirmedTeamIds.has(t.id)).map((t) => t.name);
+  return {
+    doneCount: teams.length - missing.length,
+    totalTeams: teams.length,
+    missing,
+  };
+}
+
 function getAllResults() {
   const teams = db.prepare('SELECT * FROM teams ORDER BY name').all();
   return teams.map((team) => {
@@ -41,4 +58,4 @@ function getAllResults() {
   });
 }
 
-module.exports = { getConfirmationsForTeam, replaceConfirmations, getAllResults };
+module.exports = { getConfirmationsForTeam, replaceConfirmations, getAllResults, getProgress };

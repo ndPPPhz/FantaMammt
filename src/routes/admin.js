@@ -13,6 +13,7 @@ router.get('/', (req, res) => {
     title: 'Dashboard admin',
     phase: res.locals.phase,
     phases: settingsService.PHASES,
+    confirmProgress: confirmService.getProgress(),
   });
 });
 
