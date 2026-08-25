@@ -5,7 +5,7 @@ const voteService = require('../services/voteService');
 const { requireTeamOrAdmin } = require('../middleware/auth');
 
 router.get('/', requireTeamOrAdmin, (req, res) => {
-  if (!res.locals.isAdmin && res.locals.phase !== 'confirm_closed') {
+  if (!res.locals.isAdmin && res.locals.phase === 'voting_open') {
     return res.render('tally/tally', { title: 'Voti ricevuti', waiting: true });
   }
 

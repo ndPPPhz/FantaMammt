@@ -9,9 +9,8 @@ pre-asta della lega di Fantacalcio "Mammt Legapro".
    ciascuna delle altre 9 squadre (max 2 per ruolo, 1 portiere). La
    pagina "Vota" mostra solo chi ha già completato il voto e chi manca
    ancora (senza rivelare le scelte); i conteggi veri e propri in "Voti
-   ricevuti" restano nascosti a tutti (admin escluso) fino a quando anche
-   le riconferme saranno chiuse per l'intera lega, per non influenzare le
-   scelte di riconferma.
+   ricevuti" restano nascosti a tutti (admin escluso) finché l'admin non
+   chiude la fase di voto per l'intera lega.
 2. **Riconferme** (al buio): dopo che l'admin chiude il voto, ogni squadra
    sceglie fino a 5 giocatori della propria rosa da confermare, con un
    costo calcolato automaticamente in base ai voti ricevuti. Le riconferme
