@@ -1,0 +1,115 @@
+<%- include('../partials/header') %>
+
+<h1 class="h3 mb-1">
+  <% if (team) { %>Ciao, <%= team.name %><% } else { %>Ciao, Admin<% } %>
+</h1>
+<p class="text-muted">Ecco il resoconto dello stato della lega in questo momento.</p>
+
+<div class="card mb-4">
+  <div class="card-body">
+    <h2 class="h6 text-muted text-uppercase">Cosa fare adesso</h2>
+    <p class="fs-5 mb-3"><%= status.text %></p>
+    <a href="<%= status.href %>" class="btn btn-primary"><%= status.label %></a>
+  </div>
+</div>
+
+<div class="row g-3 mb-4">
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="h6 text-muted text-uppercase">Voto di gradimento</h3>
+        <p class="fs-4 fw-bold mb-0"><%= teamsFullyVoted %>/<%= totalTeams %> <span class="fs-6 fw-normal text-muted">squadre hanno finito</span></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="card h-100">
+      <div class="card-body">
+        <h3 class="h6 text-muted text-uppercase">Riconferme</h3>
+        <p class="fs-4 fw-bold mb-0"><%= confirmProgress.doneCount %>/<%= confirmProgress.totalTeams %> <span class="fs-6 fw-normal text-muted">squadre hanno confermato</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="h6 text-muted text-uppercase mb-3">Link rapidi</h2>
+<div class="row g-3">
+  <% if (team) { %>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/voting" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Vota</h3>
+          <p class="text-muted small mb-0">Scegli i giocatori delle altre squadre.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/confirm" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Riconferme</h3>
+          <p class="text-muted small mb-0">Scegli chi tenere della tua rosa.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/tally" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Voti ricevuti</h3>
+          <p class="text-muted small mb-0">Chi ha votato chi.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/classifica" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Classifica</h3>
+          <p class="text-muted small mb-0">Crediti iniziali e residui per l'asta.</p>
+        </div>
+      </a>
+    </div>
+  <% } %>
+  <% if (isAdmin) { %>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/admin" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Dashboard admin</h3>
+          <p class="text-muted small mb-0">Avanza le fasi della lega.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/admin/teams" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Squadre</h3>
+          <p class="text-muted small mb-0">Reset PIN di accesso.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/admin/overview" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Panoramica voti</h3>
+          <p class="text-muted small mb-0">Matrice squadra &times; squadra.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/admin/results" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Risultati riconferme</h3>
+          <p class="text-muted small mb-0">Riconferme e totali per squadra.</p>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-6 col-lg-3">
+      <a href="/classifica" class="card text-decoration-none h-100">
+        <div class="card-body">
+          <h3 class="h6 mb-1">Classifica</h3>
+          <p class="text-muted small mb-0">Crediti iniziali e residui per l'asta.</p>
+        </div>
+      </a>
+    </div>
+  <% } %>
+</div>
+
+<%- include('../partials/footer') %>

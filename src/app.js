@@ -11,6 +11,7 @@ const confirmRoutes = require('./routes/confirm');
 const adminRoutes = require('./routes/admin');
 const accountRoutes = require('./routes/account');
 const standingsRoutes = require('./routes/standings');
+const homeRoutes = require('./routes/home');
 
 const app = express();
 
@@ -36,15 +37,13 @@ app.use(
 app.use(attachPhase);
 app.use(attachFlash);
 
-app.get('/', (req, res) => {
-  if (req.session.teamId) return res.redirect('/voting');
-  if (req.session.isAdmin) return res.redirect('/admin');
-  res.redirect('/login');
-});
-
 // authRoutes is mounted first (unprefixed) so its exact /admin/login match
 // is handled before it could ever reach adminRoutes' requireAdmin guard.
 app.use(authRoutes);
+// homeRoutes only defines the exact '/' path (as a per-route middleware,
+// never router.use()), so mounting it unprefixed can't leak into other
+// routers the way an early router.use() guard would.
+app.use('/', homeRoutes);
 app.use('/voting', votingRoutes);
 app.use('/tally', tallyRoutes);
 app.use('/confirm', confirmRoutes);
