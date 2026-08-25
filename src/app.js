@@ -10,6 +10,7 @@ const tallyRoutes = require('./routes/tally');
 const confirmRoutes = require('./routes/confirm');
 const adminRoutes = require('./routes/admin');
 const accountRoutes = require('./routes/account');
+const standingsRoutes = require('./routes/standings');
 
 const app = express();
 
@@ -49,6 +50,7 @@ app.use('/tally', tallyRoutes);
 app.use('/confirm', confirmRoutes);
 app.use('/admin', adminRoutes);
 app.use('/account', accountRoutes);
+app.use('/classifica', standingsRoutes);
 
 app.use((req, res) => {
   res.status(404).render('errors/404', { title: 'Non trovata' });

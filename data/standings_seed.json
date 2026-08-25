@@ -1,0 +1,12 @@
+[
+  { "name": "la Presenza", "posizioneScontriDiretti": 1, "premiGiornata": 20 },
+  { "name": "Poco lucidi", "posizioneScontriDiretti": 2, "premiGiornata": 10 },
+  { "name": "Succursale Paki FC", "posizioneScontriDiretti": 3, "premiGiornata": 5 },
+  { "name": "AC Dentaccio", "posizioneScontriDiretti": 4, "premiGiornata": 22.5 },
+  { "name": "UPN 1926", "posizioneScontriDiretti": 5, "premiGiornata": 20 },
+  { "name": "Bluff o Fenomeno?", "posizioneScontriDiretti": 6, "premiGiornata": 25 },
+  { "name": "OPS Clown", "posizioneScontriDiretti": 7, "premiGiornata": 10 },
+  { "name": "Ogni Giorno Una Grava 1989", "posizioneScontriDiretti": 8, "premiGiornata": 20 },
+  { "name": "Athletic Senzagobbi", "posizioneScontriDiretti": 9, "premiGiornata": 15 },
+  { "name": "Team Giovannelli", "posizioneScontriDiretti": 10, "premiGiornata": 22.5 }
+]
