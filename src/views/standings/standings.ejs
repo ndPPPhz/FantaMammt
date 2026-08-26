@@ -6,9 +6,13 @@
   <code>Punteggio classifica = 0.8 &times; Posizione scontri diretti + 0.2 &times; Posizione miglior punteggio</code>
 </p>
 
+<p class="text-muted small">
+  Budget totale asta = Crediti inizio stagione + Crediti residui anno scorso.
+</p>
+
 <% if (!showBudget) { %>
   <div class="alert alert-secondary">
-    I crediti residui per l'asta (crediti iniziali meno costo riconferme) saranno visibili qui quando le riconferme saranno chiuse per l'intera lega.
+    I crediti residui per l'asta (budget totale meno costo riconferme) saranno visibili qui quando le riconferme saranno chiuse per l'intera lega.
   </div>
 <% } %>
 
@@ -23,6 +27,7 @@
         <th>Punteggio classifica</th>
         <th>Crediti residui anno scorso</th>
         <th>Crediti inizio stagione</th>
+        <th>Budget totale asta</th>
         <% if (showBudget) { %>
           <th>Costo riconferme</th>
           <th>Crediti residui asta</th>
@@ -44,6 +49,7 @@
           <td><%= s.punteggioClassifica %></td>
           <td><%= s.creditiResiduiAnnoScorso %></td>
           <td><%= s.creditiInizioStagione %></td>
+          <td class="fw-semibold"><%= s.budgetTotaleAsta %></td>
           <% if (showBudget) { %>
             <td><%= s.costoRiconferme %></td>
             <td class="fw-semibold"><%= s.creditiResiduiAsta %></td>

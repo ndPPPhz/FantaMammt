@@ -8,10 +8,17 @@ function getStandings() {
   const teams = db.prepare('SELECT name, credits_residui FROM teams').all();
   const creditsResiduiByName = new Map(teams.map((t) => [t.name, t.credits_residui]));
 
-  return standings.map((s) => ({
-    ...s,
-    creditiResiduiAnnoScorso: creditsResiduiByName.get(s.name) ?? 0,
-  }));
+  return standings.map((s) => {
+    const creditiResiduiAnnoScorso = creditsResiduiByName.get(s.name) ?? 0;
+    return {
+      ...s,
+      creditiResiduiAnnoScorso,
+      // "Crediti inizio stagione" dal regolamento è "no rimanenze": vanno
+      // sommati a parte i crediti residui dell'anno scorso per ottenere
+      // il budget totale disponibile per l'asta.
+      budgetTotaleAsta: s.creditiInizioStagione + creditiResiduiAnnoScorso,
+    };
+  });
 }
 
 // Adds costoRiconferme and creditiResiduiAsta per team, based on the
@@ -33,7 +40,7 @@ function getStandingsWithBudget() {
     return {
       ...s,
       costoRiconferme,
-      creditiResiduiAsta: s.creditiInizioStagione - costoRiconferme,
+      creditiResiduiAsta: s.budgetTotaleAsta - costoRiconferme,
     };
   });
 }
