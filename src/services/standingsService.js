@@ -3,7 +3,15 @@ const standingsData = require('../../data/standings_seed.json');
 const { computeStandings } = require('../lib/standings');
 
 function getStandings() {
-  return computeStandings(standingsData);
+  const standings = computeStandings(standingsData);
+
+  const teams = db.prepare('SELECT name, credits_residui FROM teams').all();
+  const creditsResiduiByName = new Map(teams.map((t) => [t.name, t.credits_residui]));
+
+  return standings.map((s) => ({
+    ...s,
+    creditiResiduiAnnoScorso: creditsResiduiByName.get(s.name) ?? 0,
+  }));
 }
 
 // Adds costoRiconferme and creditiResiduiAsta per team, based on the

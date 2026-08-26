@@ -21,6 +21,7 @@
         <th>Scontri diretti</th>
         <th>Miglior punteggio</th>
         <th>Punteggio classifica</th>
+        <th>Crediti residui anno scorso</th>
         <th>Crediti inizio stagione</th>
         <% if (showBudget) { %>
           <th>Costo riconferme</th>
@@ -41,6 +42,7 @@
             <% } %>
           </td>
           <td><%= s.punteggioClassifica %></td>
+          <td><%= s.creditiResiduiAnnoScorso %></td>
           <td><%= s.creditiInizioStagione %></td>
           <% if (showBudget) { %>
             <td><%= s.costoRiconferme %></td>
